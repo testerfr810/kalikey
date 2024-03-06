@@ -44,7 +44,7 @@ alternative3() {
 
 ## Alternative 4
 alternative4() {
-	#apt-get install -y git make jetring
+	apt-get install -y git make jetring
 	git clone https://gitlab.com/kalilinux/packages/kali-archive-keyring.git
 	cd kali-archive-keyring
 	make
